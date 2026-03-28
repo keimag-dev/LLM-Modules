@@ -1,0 +1,18 @@
+[project]
+name = "llm-modules"
+version = "0.1.0"
+description = "A python package that includes various LLM modules for better development of chatbot and robot."
+authors = [
+    { name = "kei-mag", email = "61485115+kei-mag@users.noreply.github.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "ddgs>=9.4.0",
+    "httpx>=0.28.1",
+    "langchain[google-genai]>=0.3.26",
+    "langgraph>=0.5.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
